@@ -1,4 +1,5 @@
 #python project-1
+# Rock Paper Scissors Game
 import random
 print("WELCOME TO THE GAME ROCK PAPER SCISSORS")
 userchoice=input("Enter your choice(rock,paper,scissors):")
