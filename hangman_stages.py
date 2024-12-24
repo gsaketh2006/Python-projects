@@ -60,10 +60,3 @@ stages = [
     -----------
     """
 ]
-        gameover=True
-        
-if(lives==0):
-    print("You lose")  
-    print(f"The word is '{word}'")
-else:
-    print("You won🎉🎉🎉")
