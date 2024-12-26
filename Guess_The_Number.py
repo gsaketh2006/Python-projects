@@ -5,6 +5,7 @@ import os
 easy=10
 hard=3
 choice=False
+print("      GUESS THE NUMBER GAME         ")
 print("Let me think of a number between 1 to 50.")
 number=random.randint(1,50)
 level=(input("Choose level of the difficulty...Type 'easy' or 'hard': ")).lower()
