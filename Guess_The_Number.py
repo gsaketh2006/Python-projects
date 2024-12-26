@@ -2,10 +2,11 @@
 # Guess the number
 import random
 import os
+import guess_the_number_logo
 easy=10
 hard=3
 choice=False
-print("      GUESS THE NUMBER GAME         ")
+print(guess_the_number_logo.logo)
 print("Let me think of a number between 1 to 50.")
 number=random.randint(1,50)
 level=(input("Choose level of the difficulty...Type 'easy' or 'hard': ")).lower()
